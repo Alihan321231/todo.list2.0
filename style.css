@@ -1,0 +1,41 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo {
+    background: red;
+    margin: 40px;
+    padding: 10px;
+    padding-bottom: 450px;
+}
+.todo{
+    background: brown;
+    width: 41%;
+    height: 200px;
+  border-radius: 20px;
+overflow-y: scroll;
+}
+
+.buttons{
+    margin: 20px;
+}
+button{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top:10px;
+    margin-left: 70px;
+}
+input{
+    width: 150px;
+    height: 20px;
+    margin-left: 27px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
